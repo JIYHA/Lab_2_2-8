@@ -26,27 +26,23 @@ namespace Лаба_2
                 Console.WriteLine("You N invalid");
             }
 
-            //int a = Convert.ToInt32(Console.ReadLine());           #2 Problem
-            //double pisum = 0;
+            //int a = Convert.ToInt32(Console.ReadLine());                     #2
+            //double Pisum = 0;
             //bool flag = true;
-            //for ( int i = 1; i < a; i++)
+            //for (int i = 1; 1 < a; i += 2)
             //{
-            //  if (i % 2 == 0)
-            //  {
-            //      Console.WriteLine("Error");
-            //  }
-            //  else if (true)
-            //  {
-            //      pisum += 1 / i;
-            //  }
-            //  else
-            //  {
-            //     pisum -= 1 / i;
-            //  }
-            //flag = !flag;
-            //  pisum *= 4;
+            //    if (flag)
+            //    {
+            //        Pisum += 1 / i;
+            //    }
+            //    else
+            //    {
+            //       Pisum -= 1 / i;
+            //    }
+            //    flag = !flag;
             //}
-            //Console.WriteLine(pisum);//
+            //Pisum *=4;
+            //Console.WriteLine(Pisum);
 
             //Console.WriteLine("Опять решать сколько там цисел? Хозяин, я устал");      #3
             //int f0 = 1, f1 = 1, fi = 0, k = 0;
