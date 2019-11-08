@@ -109,6 +109,10 @@ namespace Лаба_2
             //
             //if (N < 101 && N > 0)
             //{
+            //    if (N == 11 || N == 12 || N == 13 || N == 14 || N == 15 || N == 16 || N == 17 || N == 18 || N == 19 || N % 10 > 4 || N % 10 == 0)
+            //    {
+            //        Console.WriteLine(N + "лет"); 
+            //    }
             //    if (N % 10 == 1)
             //    {
             //        Console.WriteLine(N + "год");
@@ -117,10 +121,6 @@ namespace Лаба_2
             //    {
             //       Console.WriteLine(N + "года");
             //    }
-            //    if (N % 10 > 4 || N % 10 == 0)
-            //    {
-            //        Console.WriteLine(N + "лет");
-            //   }
             //}
             //else
             //{
