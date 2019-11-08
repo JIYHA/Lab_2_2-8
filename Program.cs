@@ -56,31 +56,28 @@ namespace Лаба_2
             //}
             //Console.Write("Их количество = " + k);
 
-            //Console.WriteLine("Опять решать? Хозяин, я устал... Введи числа(");      #4
-
-            //double x = Convert.ToDouble(Console.ReadLine());
-            //int q = Convert.ToInt32(Console.ReadLine());
-            //double cos = 1;
-
-            // for (int i = 0, w = 2; i < q; i++, w += 2)
-            // {
-            //    long b = w;
-            //    long f = 1;
-            //    for (long a = 1; a < b; b--)
-            //    {
-            //        f *= b;
-            //     }
-            //    int num = i + 1;
-            //    if (num % 2 == 0)
-            //    {
-            //        cos += Math.Pow(x, w) / f;
-            //    }
-            //    if (num % 2 != 0)
-            //    {
-            //        cos -= Math.Pow(x, w) / f;
-            //    }
-            //}
-            //Console.WriteLine(cos);
+            /*Console.WriteLine("You X");                               #4
+            double x = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("You Q");
+            double q = Convert.ToDouble(Console.ReadLine());
+            double cosX = 1;
+            for (int i = 0, grade = 2; i < q; i++, grade += 2)
+            {
+                int Fa = grade;
+                int b = Fa;
+                for (long a = 1; a < b; b--)
+                {
+                    Fa *= b;
+                }  
+                int n = i + 1;
+                if (n % 2 == 0)
+                    cosX += Math.Pow(x, grade) / Fa;
+                if (n % 2 != 0)
+                    cosX -= Math.Pow(x, grade) / Fa;
+            }
+            Console.WriteLine(cosX); */
+            }
+           
 
 
             //Console.WriteLine("Chislo");                                                #5
