@@ -130,8 +130,7 @@ namespace Лаба_2
                 case 8:
                 case 9:
                 case 0: Console.WriteLine(N + "лет"); break;*/
-
-
+            }
             }
 
 
