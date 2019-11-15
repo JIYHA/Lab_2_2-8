@@ -56,33 +56,39 @@ namespace Лаба_2
             //}
             //Console.Write("Их количество = " + k);
 
-            /*Console.WriteLine("You X");                               #4
+           /* Console.WriteLine(Fact(5));
             double x = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("You Q");
             double q = Convert.ToDouble(Console.ReadLine());
-            double cosX = 1;
-            for (int i = 0, grade = 2; i < q; i++, grade += 2)
+            double cos = 1;
+            bool plus = false;
+            int k = 1;
+            for (int i = 2; ; i += 2, plus = !plus)
             {
-                int Fa = grade;
-                int b = Fa;
-                for (long a = 1; a < b; b--)
+                double c = Math.Pow(x, i);
+                double z = Fact(i);
+                double sum = c / z;
+                if (plus)
                 {
-                    Fa *= b;
-                }  
-                int n = i + 1;
-                if (n % 2 == 0)
-                    cosX += Math.Pow(x, grade) / Fa;
-                if (n % 2 != 0)
-                    cosX -= Math.Pow(x, grade) / Fa;
+                    cos += sum;
+
+                }
+                else
+                {
+                    cos -= sum;
+                }
+                k++;
+                double y = Math.Abs(sum);
+                if (y < q)
+                    break;
             }
-            Console.WriteLine(cosX); */
-            }
+            Console.WriteLine(cos);
+            Console.WriteLine(k);*/
            
 
 
             //Console.WriteLine("Chislo");                                                #5
             //int N = Convert.ToInt32(Console.ReadLine());
-            //
+            //bool flag = true;
             //for (int x = 0; x < N; x++)
             //  {
             //  for (int y = 0; y < N; y++)
@@ -91,34 +97,40 @@ namespace Лаба_2
             //      {
             //      if (Math.Pow(x, 3) + Math.Pow(y, 3) + Math.Pow(z, 3) == N)
             //      Console.WriteLine(x + " " + y + " " + z);
+            //      flag = false;
             //      }
             //  }
             //  }
+            //  if ( flag )
             //Console.WriteLine("No such combinations!")
 
 
-            //Console.WriteLine("1-100");                                #6
-            //int N = Convert.ToInt32(Console.ReadLine());
-            //
-            //if (N < 101 && N > 0)
-            //{
-            //    if (N == 11 || N == 12 || N == 13 || N == 14 || N == 15 || N == 16 || N == 17 || N == 18 || N == 19 || N % 10 > 4 || N % 10 == 0)
-            //    {
-            //        Console.WriteLine(N + "лет"); 
-            //    }
-            //    if (N % 10 == 1)
-            //    {
-            //        Console.WriteLine(N + "год");
-            //    }
-            //    if (N % 10 > 1 && N % 10 < 5)
-            //    {
-            //       Console.WriteLine(N + "года");
-            //    }
-            //}
-            //else
-            //{
-            //    Console.WriteLine("Siriesly?");
-            //}
+            /*Console.WriteLine("1-100");                                #6
+            int N = Convert.ToInt32(Console.ReadLine());
+            if (N >= 11 && N <= 14)
+            {
+                Console.WriteLine(N + "лет");
+            }
+            else {
+
+                int val = N % 10;
+
+            switch (val)
+            {
+
+                case 1: Console.WriteLine(N + "год"); break;
+                case 2:
+                case 3:
+                case 4: Console.WriteLine(N + "года"); break;
+                case 5:
+                case 6:
+                case 7:
+                case 8:
+                case 9:
+                case 0: Console.WriteLine(N + "лет"); break;*/
+
+
+            }
 
 
             //Console.WriteLine("Введите координаты А");                       //#1 ind
@@ -134,19 +146,19 @@ namespace Лаба_2
             //}
             //else
             //{
-            //if (x1 < 0 && x2 < 0 || y1 < 0 && y2 < 0)
+            //if (x1 < 0 && x2 < 0 && y1 < 0 && y2 < 0)
             //{
             //Console.WriteLine("true");
             //}
-            //else if (x1 > 0 && x2 > 0 || y1 < 0 && y2 < 0)
+            //else if (x1 > 0 && x2 > 0 && y1 < 0 && y2 < 0)
             //{
             //Console.WriteLine("true");
             //}
-            //else if (x1 < 0 && x2 < 0 || y1 > 0 && y2 > 0)
+            //else if (x1 < 0 && x2 < 0 && y1 > 0 && y2 > 0)
             //{
             //Console.WriteLine("true");
             //}
-            //else if (x1 > 0 && x2 > 0 || y1 > 0 && y2 > 0)
+            //else if (x1 > 0 && x2 > 0 && y1 > 0 && y2 > 0)
             //{
             //Console.WriteLine("true");
             //}
