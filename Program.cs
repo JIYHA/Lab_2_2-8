@@ -12,13 +12,15 @@ namespace Лаба_2
             if ( N > 0 && N < 100001)
             {
                 for ( int i = 0; i < N; i++)
-                if (Math.Pow(3, i) == N)
                 {
-                    Console.WriteLine("true");
-                }
-                else
-                {
-                    Console.WriteLine("false");
+                    if (Math.Pow(3, i) == N)
+                    {
+                        Console.WriteLine("true");
+                    }
+                    else
+                    {
+                        Console.WriteLine("false");
+                    }
                 }
             }
             else
